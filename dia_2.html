@@ -14,7 +14,14 @@
         const programaçao = prompt("Qual linguagem de programaçao você estuda");
         const msg = `Seu nome e ${nome} e você tem ${idade} anos e estuda ${programaçao}!`;
         alert(msg); 
-        
+
+        const pergunta = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 - SIM ou 2 - NÃO`);
+        if (pergunta == 1){
+            alert("Muito bom! Continue estudando e você terá muito sucesso.");
+        }
+        if (pergunta == 2){
+            alert("Ahh que pena... Já tentou aprender outras linguagens?");
+        }
     </script>
 </body>
 </html>
